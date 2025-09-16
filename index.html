@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Franka Péter — Villanyszerelő | Egyéni vállalkozó, számlaképes</title>
+  <meta name="description" content="Franka Péter — tapasztalt villanyszerelő. Gyors kiszállás, megbízható javítások és szerelések. Egyéni vállalkozó, számlaképes.">
+  <style>
+    :root{--accent:#0077cc;--bg:#f7fafc;--card:#ffffff;--text:#0f172a}
+    *{box-sizing:border-box}
+    body{font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,'Helvetica Neue',Arial;margin:0;background:var(--bg);color:var(--text);line-height:1.5}
+    .container{max-width:980px;margin:32px auto;padding:24px}
+    header{display:flex;align-items:center;justify-content:space-between;gap:16px}
+    .brand{display:flex;align-items:center;gap:12px}
+    .logo{width:56px;height:56px;border-radius:12px;background:linear-gradient(135deg,var(--accent),#00a3ff);display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700}
+    h1{margin:0;font-size:1.5rem}
+    p.lead{margin:6px 0 0;color:#334155}
+    .card{background:var(--card);padding:20px;border-radius:12px;box-shadow:0 6px 18px rgba(2,6,23,0.06);margin-top:20px}
+    .grid{display:grid;grid-template-columns:1fr 320px;gap:20px}
+    @media (max-width:880px){.grid{grid-template-columns:1fr} .brand h1{font-size:1.2rem}}
+    ul.services{list-style:none;padding:0;margin:0}
+    ul.services li{padding:10px 0;border-bottom:1px dashed #e6eef7}
+    .btn{display:inline-block;background:var(--accent);color:#fff;padding:10px 16px;border-radius:10px;text-decoration:none;font-weight:600}
+    .contact-box{display:flex;flex-direction:column;gap:12px}
+    .phone{font-size:1.25rem;font-weight:700}
+    .small{font-size:0.9rem;color:#475569}
+    footer{text-align:center;margin-top:28px;color:#64748b;font-size:0.9rem}
+    .badge{display:inline-block;padding:6px 10px;border-radius:999px;background:#eef9ff;color:#064e7a;font-weight:600;font-size:0.85rem}
+    form label{display:block;font-size:0.9rem;margin-top:8px}
+    input,textarea{width:100%;padding:10px;border-radius:8px;border:1px solid #e6eef7;margin-top:6px;font-size:1rem}
+    textarea{min-height:120px;resize:vertical}
+    .muted{color:#64748b;font-size:0.9rem}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div class="logo">FP</div>
+        <div>
+          <h1>Franka Péter — Villanyszerelő</h1>
+          <p class="lead">Egyéni vállalkozó · Számlaképes · Gyors kiszállás</p>
+        </div>
+      </div>
+      <div>
+        <a class="btn" href="tel:+36302961749">Hívás: +36 30 296 1749</a>
+      </div>
+    </header>
+
+    <section class="card">
+      <div class="grid">
+        <div>
+          <h2>Szolgáltatások</h2>
+          <ul class="services">
+            <li>Lakossági és kisipari villanyszerelés (konnektor, világítás, biztosíték)</li>
+            <li>Villamos hibakeresés és javítás</li>
+            <li>Biztonsági felülvizsgálat, bekötések</li>
+            <li>Új hálózatok kiépítése és korszerűsítés</li>
+            <li>Garanciális és számlaképes munkavégzés</li>
+          </ul>
+
+          <h3 style="margin-top:18px">Miért érdemes engem választani?</h3>
+          <p class="muted">Több éves tapasztalat, tiszta és rendezett munkavégzés, pontos árajánlat, adóügyi számla minden elvégzett munkáról.</p>
+
+          <h3 style="margin-top:18px">Rövid bemutatkozás</h3>
+          <p class="muted">Sziasztok — Franka Péter vagyok, egyéni vállalkozó villanyszerelő. Szeretek rendet hagyni magam után és időben megoldani a problémákat. Ha sürgős a hiba, hívj a fenti telefonszámon.</p>
+        </div>
+
+        <aside class="contact-box card" style="align-self:flex-start">
+          <div>
+            <div class="badge">Egyéni vállalkozó · Számlaképes</div>
+          </div>
+          <div>
+            <div class="phone">+36 30 296 1749</div>
+            <div class="small">Hívható: H–V, 8:00–20:00 (ha sürgős, küldj SMS-t)</div>
+          </div>
+
+          <div>
+            <a class="btn" href="tel:+36302961749">Azonnali hívás</a>
+            <a class="btn" style="background:#10b981;margin-left:8px;text-decoration:none" href="mailto:franka.peter@example.com?subject=Aj%C3%A1nlatk%C3%A9r%C3%A9s">Email küldése</a>
+          </div>
+        </aside>
+      </div>
+
+      <div style="margin-top:18px">
+        <h3>Árak (példa)</h3>
+        <p class="muted">Munkadíj és anyagköltség a helyszíni felmérés után — minden munkáról számlát adok. Kisebb javításoknál tájékoztató jelleggel: egyszeri kiszállás 6 000 Ft, óradíj 8 500 Ft-tól (az ár a helyszíni adottságoktól függ).</p>
+      </div>
+
+    </section>
+
+    <footer>
+      <div>© <strong>Franka Péter</strong> — Villanyszerelő • Egyéni vállalkozó • Számlaképes</div>
+      <div style="margin-top:6px" class="muted">Telefonszám: <a href="tel:+36302961749">+36 30 296 1749</a> · Email: franka.peter@example.com</div>
+    </footer>
+  </div>
+</body>
+</html>
